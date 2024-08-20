@@ -5,10 +5,10 @@
     <meta charset ="utf-8"> 
   </head>
   <body>
-    <div>
+    <div style="text-align: right;">
       <a href="index.html">Home</a>
-      <a href="moby_dick.html">Moby Dick</a>
-      <a href="tags.html">HTML tags</a>
+      <a href="moby_dick.html" style="margin: 0 0 0 10px;">Moby Dick</a>
+      <a href="tags.html" style="margin: 0 0 0 10px;">HTML tags</a>
     </div>
     <h1>Important HTML Tags</h1>
     <img src="images/alfonso_astronauta.jpg" alt="Alfonso el Astronauta"
@@ -16,14 +16,16 @@
 
     <p>
       This page is designed as a quick reference for some of the common Tags
-      covered in <a href="https://learnenough.com/html"> <em> Learn Enough HTML To Be Dangerous</em></a>.
-      In the process of making it, we'll learn how to make HTML <em>tables</em> via <code>table</code>
+      covered in <a href="https://learnenough.com/html"> <em> Learn Enough HTML
+      To Be Dangerous</em></a>.
+      In the process of making it, we'll learn how to make HTML 
+      <em>tables</em> via <code>table</code>
       and related tags.
     </p> 
 
     <p>
-      The tables below don't include all HTML tags, but they do list many of the most
-      important ones.
+      The tables below don't include all HTML tags, but they do list many 
+      of the most important ones.
     </p>
   
     <h2>Block Elements</h2>
@@ -99,10 +101,10 @@
     <table>
       <tr>
         <th>Tag</th>
-      <th>Name</th>
-      <th>Purpose</th>
-      <th>Example</th>
-      <th>Result</th>
+        <th>Name</th>
+        <th>Purpose</th>
+        <th>Example</th>
+        <th>Result</th>
       </tr>
 
       <tr>
@@ -168,9 +170,61 @@
     </p>
 
     <h2>Lists</h2>
-    There are two types of lists.  These are: ordered list and unordered list.
-    For ordered list we must use the <code>ol</code> tag, for the other case
-    we use the <code>ul</code> tag. In both cases we use the <code>li</code>
-    tag for expecify all elements of the list.
+    <p>
+      There are two types of lists.  These are: ordered list and unordered list.
+      For ordered list we must use the <code>ol</code> tag, for the other case
+      we use the <code>ul</code> tag. In both cases we use the <code>li</code>
+      tag for expecify all elements of the list.
+    </p>
+    
+    <h2>Floating and marging images</h2>
+    <p>
+      We use <strong><code>float</code></strong> and 
+      <strong><code>margin</code></strong> on images to adjust the location 
+      of the image and the text around, within the 
+      HTML document.
+    </p>
+    <p>
+      We use <strong><code>auto</code></strong> for inserts a margin with a 
+      size that is automatically the same on all relevant sides. However, this
+      only works for block elements, like a <code>img</code> tag. For this
+      case, we use the style <strong><code>display: block;</code></strong> 
+      which overrides the default.
+
+    </p>
+    <h2>Properties</h2>
+
+    <table style="text-align: center;">
+      <tr>
+        <th>Parts of html document</th>
+        <th>Properties</th>
+      </tr>
+      <tr>
+        <td><code>html</code></td>
+        <td>The begin of the document, we inicialized with 
+          <code>&lt;!DOCTYPE html&gt;</code>  </td>
+      </tr>
+      <tr>
+        <td><code>head</code></td>
+        <td>This part include the title and the meta, as follow <code>
+          &lt;title&gt; HTML Tags&lt;/title&lt;</code>
+          &lt;meta charset ="utf-8"&gt; </td>
+      </tr>
+
+      <tr>
+        <td><code>body</code></td>
+        <td> </td>
+      </tr>
+
+      <tr>
+        <td><code>title</code></td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td><code>meta</code></td>
+        <td> </td>
+      </tr>
+    
+    </table>
   </body>
 </html>
